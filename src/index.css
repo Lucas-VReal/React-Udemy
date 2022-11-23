@@ -1,5 +1,18 @@
 body {
-    background-color: #222;
-    color: #fff;
-    font-size: 50px;
-};                  
+  font-family: Oswald;
+  background-color: #222;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1{
+  font-weigth: 100;
+  margin: 3;
+}
+
+h2,
+h3 {
+  font-weigth: 100;
+  margin: 0;
+}

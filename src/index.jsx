@@ -1,18 +1,11 @@
-import ReactDOM from 'react-dom';
-import React from 'react';
-import './index.css';
-import First from './components/basic/first';
-import WithParameter from './components/basic/withParameter'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
 
-ReactDOM.render(
-    <div id="app">
-        <First></First>
-        <WithParameter title="Situação do Aluno" aluno="Pedro" nota = {9.3}/>
-    </div>,
-     document.getElementById('root')
-     );
-
-
-
-
-
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
